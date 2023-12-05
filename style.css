@@ -67,10 +67,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 5px;
-
-
-
 }
 
 
@@ -117,6 +113,16 @@ body {
 
 .header-logo {
   width: 25px;
+  transition: 0.1s;
+}
+
+.header-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.name:hover {
+  cursor: pointer;
 }
 
 .searchbar {
@@ -238,9 +244,11 @@ body {
   transform: scale(1.02); 
 }
 
-.right-main h4 {
+.right-main h3 {
   text-align: center;
-  color: white;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  
 }
 
 .announcement,
@@ -248,17 +256,49 @@ body {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
-  padding: 10px;
+  padding: 10px 20px 20px 20px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .announcement-wrapper {
   border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 .profile-pic {
   width: 50px;
   border-radius: 100%;
 }
+
+.announcement {
+  gap: 10px;
+}
+
+.trending {
+  gap: 20px;
+}
+
+.trending-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.trending-wrapper img {
+  border-radius: 100px; 
+}
+
+.trending-wrapper img:hover {
+  cursor: pointer;
+}
+
+.trending-text p {
+  margin: 5px;
+}
+
+.trending-text b:hover {
+  cursor: pointer;
+}
+
 
