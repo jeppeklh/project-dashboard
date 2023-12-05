@@ -5,81 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="page">
       <div class="sidebar">
         <div class="sidebar-header">Jeppe</div>
 
-        <div class="sidebar-row">
-          <img src="./img/home.svg" alt="home" />
-          <div>Home</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/account.svg" alt="profile" />
-          <div>Profile</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/message.svg" alt="message" />
-          <div>Messages</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/history.svg" alt="history" />
-          <div>History</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/task.svg" alt="task" />
-          <div>Tasks</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/community.svg" alt="community" />
-          <div>Communities</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/settings.svg" alt="settings" />
-          <div>Settings</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/support.svg" alt="support" />
-          <div>Support</div>
-        </div>
-
-        <div class="sidebar-row">
-          <img src="./img/privacy.svg" alt="privacy" />
-          <div>Privacy</div>
+        <div class="rows">
+          <div class="sidebar-row">
+            <img src="./img/home.svg" alt="home" />
+            <div>Home</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/account.svg" alt="profile" />
+            <div>Profile</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/message.svg" alt="message" />
+            <div>Messages</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/history.svg" alt="history" />
+            <div>History</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/task.svg" alt="task" />
+            <div>Tasks</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/community.svg" alt="community" />
+            <div>Communities</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/settings.svg" alt="settings" />
+            <div>Settings</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/support.svg" alt="support" />
+            <div>Support</div>
+          </div>
+          <div class="sidebar-row">
+            <img src="./img/privacy.svg" alt="privacy" />
+            <div>Privacy</div>
+          </div>
         </div>
       </div>
 
       <div class="header">
         <div class="header-top">
           <div class="header-top-left">
-            <img src="" alt="search-logo" />
+            <img class="header-logo" src="./img/search.svg" alt="search-logo" />
             <div class="searchbar">
               <p>search</p>
             </div>
           </div>
 
           <div class="header-top-right">
-            <img src="" alt="bell">
-            <img src="" alt="profile-pic">
+            <img class="header-logo" src="./img/bell.svg" alt="bell" />
+            <img
+              class="profile-pic"
+              src="./img/profile2.png"
+              alt="profile-pic"
+            />
             <p class="name">Jeppe Lynge Hansen</p>
           </div>
         </div>
 
         <div class="header-bottom">
           <div class="header-bottom-left">
-              <img src="" alt="profile-pic2" />
-              <div>
-                <p class="text"></p>
-                <p class="bigger-text"></p>
-              </div>
+            <img
+              class="profile-pic"
+              src="./img/profile2.png"
+              alt="profile-pic2"
+            />
+            <div>
+              <p class="text">Hi, there</p>
+              <p class="bigger-text">Jeppe Lynge Hansen</p>
+            </div>
           </div>
 
           <div class="header-bottom-right">
@@ -90,7 +96,165 @@
         </div>
       </div>
 
-      <div class="main"></div>
+      <div class="main">
+        <div class="cards">
+          <div class="main-card">
+            <h2>Landing Page</h2>
+            <p>A simple landing page. This was also my first ever project.</p>
+            <img src="./img/landing-page.png" alt="landing-page" />
+            <div class="card-button-container">
+              <a href="https://github.com/jeppeklh/project-landingpage">
+                <i class="fa fa-github" style="font-size: 22px"></i
+              ></a>
+              <a href="https://jeppeklh.github.io/project-landingpage/">
+                <i
+                  class="fa fa-link"
+                  aria-hidden="true"
+                  style="font-size: 22px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-card">
+            <h2>Etch-A-Sketch</h2>
+            <p>A fun little painting game.</p>
+            <img src="./img/etch-a-sketch.png" alt="etch-a-sketch" />
+            <div class="card-button-container">
+              <a href="https://github.com/jeppeklh/project-etch-a-sketch"
+                ><i class="fa fa-github" style="font-size: 22px"></i
+              ></a>
+              <a href="https://jeppeklh.github.io/project-etch-a-sketch/">
+                <i
+                  class="fa fa-link"
+                  aria-hidden="true"
+                  style="font-size: 22px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-card">
+            <h2>Rock, Paper, Scissors!</h2>
+            <p>The classic game we all know and love.</p>
+            <img
+              src="./img/rock-paper-scissors.png"
+              alt="rock-paper-scissors"
+            />
+            <div class="card-button-container">
+              <a href="https://github.com/jeppeklh/project-rock-paper-scissors"
+                ><i class="fa fa-github" style="font-size: 22px"></i
+              ></a>
+              <a href="https://jeppeklh.github.io/project-rock-paper-scissors/">
+                <i
+                  class="fa fa-link"
+                  aria-hidden="true"
+                  style="font-size: 22px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-card">
+            <h2>Calculator</h2>
+            <p>A calculator that using js for the logic.</p>
+            <img src="./img/calculator.png" alt="calculator" />
+            <div class="card-button-container">
+              <a href="https://github.com/jeppeklh/project-calculator"
+                ><i class="fa fa-github" style="font-size: 22px"></i
+              ></a>
+              <a href="https://jeppeklh.github.io/project-calculator/">
+                <i
+                  class="fa fa-link"
+                  aria-hidden="true"
+                  style="font-size: 22px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-card">
+            <h2>Sign-up Form</h2>
+            <p>An aesthetic sign-up form.</p>
+            <img src="./img/sign-up-form.png" alt="sign-up-form" />
+            <div class="card-button-container">
+              <a href="https://github.com/jeppeklh/project-sign-up-form"
+                ><i class="fa fa-github" style="font-size: 22px"></i
+              ></a>
+              <a href="https://jeppeklh.github.io/project-sign-up-form/">
+                <i
+                  class="fa fa-link"
+                  aria-hidden="true"
+                  style="font-size: 22px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-card">
+            <h2>Dashboard</h2>
+            <p>The Dashboard (The page you currently are on).</p>
+            <img src="./img/dashboard.png" alt="dashboard" />
+            <div class="card-button-container">
+              <a href="https://github.com/jeppeklh/project-dashboard"
+                ><i class="fa fa-github" style="font-size: 22px"></i
+              ></a>
+              <a href="https://jeppeklh.github.io/project-dashboard/">
+                <i
+                  class="fa fa-link"
+                  aria-hidden="true"
+                  style="font-size: 22px"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="right-main">
+          <h4>Annoucements</h4>
+          <div class="announcement">
+            <div class="announcement-wrapper">
+              <p><b>Site mainanance</b></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                enim?
+              </p>
+            </div>
+            <div class="announcement-wrapper">
+              <p><b>Site mainanance</b></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                enim?
+              </p>
+            </div>
+            <div class="announcement-wrapper">
+              <p><b>Site mainanance</b></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                enim?
+              </p>
+            </div>
+          </div>
+          <h4>Trending</h4>
+          <div class="trending">
+            <div class="announcement-wrapper">
+              <p><b>Site mainanance</b></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                enim?
+              </p>
+            </div>
+            <div class="announcement-wrapper">
+              <p><b>Site mainanance</b></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                enim?
+              </p>
+            </div>
+            <div class="announcement-wrapper">
+              <p><b>Site mainanance</b></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                enim?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
